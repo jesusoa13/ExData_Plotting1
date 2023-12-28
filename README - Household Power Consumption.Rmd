@@ -1,0 +1,37 @@
+---
+title: "Household Power Consumption"
+author: "Jesus Ortiz"
+date: "2023-12-28"
+output: html_document
+---
+
+# Exploratory Data Analysis
+
+This project involves exploratory data analysis (EDA) using R. The code is intended to load a data set, transform the data for plotting, and create various plots to analyze different aspects of the data.
+
+## R Version and Package Information
+
+The code is written in R 4.3.1. The following R packages are used:
+
+-   dplyr
+-   lubridate
+
+You can install these packages using the following commands:
+
+\`\`\`R install.packages("dplyr") install.packages("lubridate")
+
+# Sections
+
+The code is organized into the following sections:
+
+## A. Loading Data Set
+
+In this section, the household power consumption data set is loaded from a CSV file.
+
+## B. Transform Data for Plotting
+
+This section involves transforming the data for plotting. Date and time columns are created, the data is filtered for specified dates, and relevant columns are converted to numeric.
+
+## C. Plotting Data
+
+This section includes multiple plots, such as a histogram for global active power, a line chart for global active power by day, a line chart for energy sub-metering, and multiple graphs in a 2x2 layout.
